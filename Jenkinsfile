@@ -1,4 +1,3 @@
-@Library("com.udatha.share") _ 
-pipeline(
-    myapp: "loki"
-)
+@Library('com.udatha.share') _
+
+myPipeline(myapp: "loki")
